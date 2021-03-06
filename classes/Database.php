@@ -26,7 +26,6 @@ class Database {
         }
         return $instance;
     }
-
     public function query($sql)
     {
 		$this->result= $this->_mysqli->query($sql);
